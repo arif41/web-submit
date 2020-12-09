@@ -1,0 +1,60 @@
+CRITICAL - 2020-12-09 02:45:07 --> Allowed fields must be specified for model: App\Models\KontolModel
+#0 C:\xampp\htdocs\form\vendor\codeigniter4\framework\system\Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Kont...')
+#1 C:\xampp\htdocs\form\vendor\codeigniter4\framework\system\Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 C:\xampp\htdocs\form\app\Controllers\Kontol.php(15): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\form\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Kontol->save()
+#4 C:\xampp\htdocs\form\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontol))
+#5 C:\xampp\htdocs\form\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\form\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\form\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-12-09 02:47:16 --> Allowed fields must be specified for model: App\Models\KontolModel
+#0 C:\xampp\htdocs\form\vendor\codeigniter4\framework\system\Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Kont...')
+#1 C:\xampp\htdocs\form\vendor\codeigniter4\framework\system\Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 C:\xampp\htdocs\form\app\Controllers\Kontol.php(15): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\form\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Kontol->save()
+#4 C:\xampp\htdocs\form\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontol))
+#5 C:\xampp\htdocs\form\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\form\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\form\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-12-09 02:50:07 --> Allowed fields must be specified for model: App\Models\KontolModel
+#0 C:\xampp\htdocs\form\vendor\codeigniter4\framework\system\Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Kont...')
+#1 C:\xampp\htdocs\form\vendor\codeigniter4\framework\system\Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 C:\xampp\htdocs\form\app\Controllers\Kontol.php(15): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\form\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Kontol->save()
+#4 C:\xampp\htdocs\form\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontol))
+#5 C:\xampp\htdocs\form\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\form\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\form\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-12-09 02:53:05 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\form\vendor\codeigniter4\framework\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\form\vendor\codeigniter4\framework\system\Model.php(753): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\form\app\Controllers\Kontol.php(15): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\form\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Kontol->save()
+#4 C:\xampp\htdocs\form\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontol))
+#5 C:\xampp\htdocs\form\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\form\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\form\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-12-09 03:19:02 --> Call to undefined method App\Controllers\Schedule::findAll()
+#0 C:\xampp\htdocs\form\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Schedule->list()
+#1 C:\xampp\htdocs\form\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+#2 C:\xampp\htdocs\form\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\form\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\form\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-09 07:49:25 --> Column 'divisi' cannot be null
+#0 C:\xampp\htdocs\form\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `sc...')
+#1 C:\xampp\htdocs\form\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sc...')
+#2 C:\xampp\htdocs\form\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sc...')
+#3 C:\xampp\htdocs\form\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sc...', Array, false)
+#4 C:\xampp\htdocs\form\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\form\app\Controllers\Schedule.php(20): CodeIgniter\Model->insert(Array)
+#6 C:\xampp\htdocs\form\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Schedule->save()
+#7 C:\xampp\htdocs\form\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+#8 C:\xampp\htdocs\form\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\form\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\form\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
